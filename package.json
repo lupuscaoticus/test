@@ -1,0 +1,24 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "test description",
+  "main": "index.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lupuscaoticus/test.git"
+  },
+  "keywords": [
+    "lupuscaoticus",
+    "test",
+    "repo"
+  ],
+  "author": "lupuscaoticus@gmail.com",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/lupuscaoticus/test/issues"
+  },
+  "homepage": "https://github.com/lupuscaoticus/test#readme"
+}
