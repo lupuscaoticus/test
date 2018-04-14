@@ -1,8 +1,23 @@
 {
     "compilerOptions": {
+        "declaration": true,
+        "diagnostics": true,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "inlineSourceMap": true,
+        "inlineSources": true,
+        "jsx": "react",
         "module": "commonjs",
-        "target": "es5",
-        "noImplicitAny": false,
-        "sourceMap": false
+        "moduleResolution": "node",
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitReturns": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "preserveConstEnums": true,
+        "pretty": true,
+        "removeComments": true,
+        "strict": true,
+        "stripInternal": true,
+        "target": "es2016"
     }
 }
