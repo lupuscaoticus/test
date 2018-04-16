@@ -1,13 +1,18 @@
 ###### integration test Repository for code gitflow git github tsc buildtest...
-[![Greenkeeper badge](https://badges.greenkeeper.io/lupuscaoticus/test.svg)](https://greenkeeper.io/)  
+![github downloads](https://img.shields.io/github/downloads/lupuscaoticus/test/total.svg)  
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/lupuscaoticus/test.svg)](https://greenkeeper.io/)  
+
 [![(master) - test coverage][coverage-img-master]][coverage-url-master]
 [![(master) - linux build test][linux-ci-buildtest-img-master]][linux-ci-url]
 [![(master) - windows build][windows-ci-build-img-master]][windows-ci-url]
 [![(master) - windows tests][windows-ci-test-img-master]][windows-ci-url]  
+
 [![(develop) - test coverage][coverage-img-develop]][coverage-url-develop]
 [![(develop) - linux build test][linux-ci-buildtest-img-develop]][linux-ci-url]
 [![(develop) - windows build][windows-ci-build-img-develop]][windows-ci-url]
-[![(develop) - windows tests][windows-ci-test-img-develop]][windows-ci-url]  
+[![(develop) - windows tests][windows-ci-test-img-develop]][windows-ci-url]  
+
 # lupuscaoticus / test
 
 
