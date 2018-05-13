@@ -7,3 +7,4 @@ node_modules/*
 package-lock.json
 *.tgz
 tsconfig.json
+coverage/*

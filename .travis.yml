@@ -21,6 +21,7 @@ before_install:
   - "test ! -d node_modules || npm prune"
   - "test ! -d node_modules || npm rebuild"
 script:
-  - "npm run test-coverage"
-after_script: 
-  - "npm run report-coverage"
+  - "npm test"
+after_success:
+  - npm run coverage
+  - npm run report-coverage

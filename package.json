@@ -6,7 +6,7 @@
     "scripts": {
         "prepare": "tsc",
         "test": "mocha",
-        "test-coverage": "istanbul cover _mocha --report lcovonly -- -R spec",
+        "coverage": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- -R spec",
         "report-coverage": "cat coverage/lcov.info | coveralls && rm -rf coverage"
     },
     "repository": {
