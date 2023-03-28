@@ -1,3 +1,6 @@
+title: test
+description: Test Docs of test repo
+show_downloads: true
 markdown: GFM
 plugins:
   - jemoji
