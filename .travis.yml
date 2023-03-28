@@ -29,3 +29,4 @@ after_success: greenkeeper-lockfile-upload
 after_script:
   - "npm run coverage"
   - "npm run report-coverage"
+
