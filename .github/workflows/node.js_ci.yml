@@ -28,7 +28,7 @@ jobs:
     - run: npm ci
     - run: npm test
     - name: Coveralls GitHub Action
-      uses: coverallsapp/github-action@v2.0.0
+      uses: echo DISABLED coverallsapp/github-action@v2.0.0
     - run: sed -i 's/\/workspaces\/test\///g' coverage/clover.xml
     - run: sed -i 's/\/workspaces\/test\///g' coverage/coverage-final.json
     - run: sed -i 's/\/workspaces\/test\///g' coverage/lcov.info
