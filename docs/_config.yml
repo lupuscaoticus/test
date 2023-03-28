@@ -1,7 +1,7 @@
-title: test
-description: Test Docs of test repo
 markdown: GFM
 theme: jekyll-theme-slate
 show_downloads: true
 plugins:
+plugins:
+  - github-metadata
   - jemoji
