@@ -16,8 +16,6 @@ develop:
 
 # lupuscaoticus / test
 
-[![Coverage Status](https://coveralls.io/repos/github/lupuscaoticus/test/badge.svg?branch=develop)](https://coveralls.io/github/lupuscaoticus/test?branch=develop)
-
 [linux-ci-url]:                   https://travis-ci.org/lupuscaoticus/test/branches
 [windows-ci-url]:                 https://ci.appveyor.com/project/lupuscaoticus/test/history
 [coverage-url-master]:            https://coveraalls.io/r/lupuscaoticus/test?branch=master
@@ -30,3 +28,7 @@ develop:
 [linux-ci-buildtest-img-develop]: https://img.shields.io/travis/lupuscaoticus/test/develop.svg?label=(develop)%20-%20linux%20build%20test
 [windows-ci-build-img-develop]:   https://img.shields.io/appveyor/ci/lupuscaoticus/test/develop.svg?label=(develop)%20-%20windows%20build
 [windows-ci-test-img-develop]:    https://img.shields.io/appveyor/tests/lupuscaoticus/test/develop.svg?label=(develop)%20-%20windows%20tests
+
+[![CodeQL](https://github.com/lupuscaoticus/test/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/lupuscaoticus/test/actions/workflows/github-code-scanning/codeql)
+[![Node.js CI](https://github.com/lupuscaoticus/test/actions/workflows/node.js_ci.yml/badge.svg)](https://github.com/lupuscaoticus/test/actions/workflows/node.js_ci.yml)
+[![Coverage Status](https://coveralls.io/repos/github/lupuscaoticus/test/badge.svg?branch=develop)](https://coveralls.io/github/lupuscaoticus/test?branch=develop)
