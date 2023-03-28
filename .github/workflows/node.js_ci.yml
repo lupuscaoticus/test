@@ -25,12 +25,16 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
+    - run: test -d node_modules && npm prune
     - run: npm ci
     - run: npm test
-    - run: npm run coverage
     - name: Coveralls GitHub Action
       uses: coverallsapp/github-action@v2.0.0
-    - run: sed -i 's/\/home\/runner\/work\/test\/test\///' /home/runner/work/test/test/coverage/coverage.json
-    - run: sed -i 's/\/home\/runner\/work\/test\/test\///' /home/runner/work/test/test/coverage/lcov.info
+    - run: sed -i 's/\/workspaces\/test\///g' coverage/clover.xml
+    - run: sed -i 's/\/workspaces\/test\///g' coverage/coverage-final.json
+    - run: sed -i 's/\/workspaces\/test\///g' coverage/lcov.info
+    - run: sed -i 's/\/home\/runner\/work\/test\/test\///g' coverage/clover.xml
+    - run: sed -i 's/\/home\/runner\/work\/test\/test\///g' coverage/coverage-final.json
+    - run: sed -i 's/\/home\/runner\/work\/test\/test\///g' coverage/lcov.info
     - name: Upload coverage reports to Codecov
       uses: codecov/codecov-action@v3

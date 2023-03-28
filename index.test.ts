@@ -1,4 +1,4 @@
-import * as index from '../index'
+import * as index from './index'
 
 import assert from 'assert'
 
@@ -16,3 +16,4 @@ describe('index', function () {
     })
   })
 })
+console.log('index.test.tx geladen')
