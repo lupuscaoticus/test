@@ -25,7 +25,6 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-    - run: test -d node_modules && npm prune
     - run: npm ci
     - run: npm test
     - name: Coveralls GitHub Action
