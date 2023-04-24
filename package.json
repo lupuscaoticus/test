@@ -48,7 +48,7 @@
   },
   "homepage": "https://github.com/lupuscaoticus/test#readme",
   "devDependencies": {
-    "@types/jest": "^29.5.0",
+    "@types/jest": "^29.5.1",
     "@types/node": "^18.15.10",
     "coveralls": "^3.1.1",
     "jest": "^29.5.0",
